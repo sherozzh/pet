@@ -1,0 +1,18 @@
+
+<view class='row'>
+    <label>我的地址</label> 
+    <view bindtap='selAddress'>{{address}}</view>   
+</view>
+<view class='row'>
+    <view>{{type==="buy"?"求购":"转让"}}</view> 
+</view>
+<view class='row'>
+    <label>说明</label> 
+   <input placeholder='填写您的具体要求' value="{{desc}}"></input>
+</view>
+<view class='row'>
+    <label>联系方式</label> 
+   <input placeholder='填写您的联系方式'  value="{{contact}}"></input>
+</view>
+
+
